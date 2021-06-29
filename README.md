@@ -1,6 +1,6 @@
 # Bempp acoustics tutorials
 
-## Tutorial 1
+## Tutorial 1: Scattering from a sphere
 The [first tutorial](https://nbviewer.jupyter.org/github/mscroggs/bempp-acoustic-tutorials/blob/main/tutorials/1_sphere_scatterer.ipynb)
 demonstrates two possible approaches for solving an exterior scattering problem.
 
