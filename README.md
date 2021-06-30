@@ -5,7 +5,7 @@ These materials were designed to be part of the [EAA / UKAN Computational Acoust
 
 ## Tutorial 1: Scattering from a sphere
 The [first tutorial](https://nbviewer.jupyter.org/github/mscroggs/bempp-acoustic-tutorials/blob/main/tutorials/1_sphere_scatterer.ipynb)
-demonstrates two possible approaches for solving an exterior scattering problem.
+demonstrates two possible approaches for solving a rigid exterior scattering problem.
 
 This tutorial should be used to complete the following exercises:
 
