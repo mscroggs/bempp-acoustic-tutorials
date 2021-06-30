@@ -7,6 +7,8 @@ You can view these exercises [on nbviewer](https://nbviewer.jupyter.org/github/m
 
 ## Contents
 - Scattering from a rigid obstacle
-  - [Tutorial 1: Rigid scattering](tutorials/1_sphere_scatterer.ipynb)
-  - [Exercise 1a: Scattering with Dirichlet conditions](tutorials/1_sphere_scatterer.ipynb)
-  - [Exercise 1b: Uniqueness](tutorials/1_sphere_scatterer.ipynb)
+  - [Tutorial 1: Scattering from a rigid sphere (Neumann boundary conditions)](tutorials/1_sphere_scatterer.ipynb)
+  - [Exercise 1a: Scattering from a pressure-release sphere (Dirichlet boundary conditions)](exercises/1a_sphere_scatterer.ipynb)
+  - [Exercise 1b: Uniqueness](exercises/1b_uniqueness.ipynb)
+- Scattering from an impedence obstacle
+  - [Tutorial 2: Scattering from a impedence sphere](tutorials/2_impedence_scattering.ipynb)
