@@ -8,8 +8,8 @@ You can view these exercises [on nbviewer](https://nbviewer.jupyter.org/github/m
 ## Contents
 - Scattering from a rigid obstacle
   - [Tutorial 1: Scattering from a Rigid Sphere (Neumann boundary conditions)](tutorials/1_sphere_scatterer.ipynb)
-  - [Exercise 1a: Scattering from a Pressure-Release Sphere (Dirichlet boundary conditions)](tutorials/1_sphere_scatterer.ipynb)
-  - [Exercise 1b: Uniqueness](tutorials/1_sphere_scatterer.ipynb)
+  - [Exercise 1a: Scattering from a Pressure-Release Sphere (Dirichlet boundary conditions)](exercises/1a_sphere_scatterer.ipynb)
+  - [Exercise 1b: Uniqueness](exercises/1b_uniqueness.ipynb)
 
 ## Scattering from a rigid obstacle
 The [first tutorial](tutorials/1_sphere_scatterer.ipynb)
