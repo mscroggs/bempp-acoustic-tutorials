@@ -5,6 +5,12 @@ These materials were designed to be part of the [EAA / UKAN Computational Acoust
 
 You can view these exercises [on nbviewer](https://nbviewer.jupyter.org/github/mscroggs/bempp-acoustic-tutorials/blob/main/README.ipynb).
 
+## Contents
+- Scattering from a rigid obstacle
+  - [Tutorial 1: Rigid scattering with Neumann conditions](tutorials/1_sphere_scatterer.ipynb)
+  - [Exercise 1a: Rigid scattering with Dirichlet conditions](tutorials/1_sphere_scatterer.ipynb)
+  - [Exercise 1b: Uniqueness](tutorials/1_sphere_scatterer.ipynb)
+
 ## Scattering from a rigid obstacle
 The [first tutorial](tutorials/1_sphere_scatterer.ipynb)
 demonstrates two possible approaches for solving a rigid exterior scattering problem.
