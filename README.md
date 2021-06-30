@@ -7,6 +7,6 @@ You can view these exercises [on nbviewer](https://nbviewer.jupyter.org/github/m
 
 ## Contents
 - Scattering from a rigid obstacle
-  - [Tutorial 1: Rigid scattering with Neumann conditions](tutorials/1_sphere_scatterer.ipynb)
-  - [Exercise 1a: Rigid scattering with Dirichlet conditions](tutorials/1_sphere_scatterer.ipynb)
+  - [Tutorial 1: Rigid scattering](tutorials/1_sphere_scatterer.ipynb)
+  - [Exercise 1a: Scattering with Dirichlet conditions](tutorials/1_sphere_scatterer.ipynb)
   - [Exercise 1b: Uniqueness](tutorials/1_sphere_scatterer.ipynb)
