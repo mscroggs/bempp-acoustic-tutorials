@@ -19,5 +19,6 @@ jobs:
         run: |
           cd bempp-cl
           python3 setup.py install
+      - run: pip install nbformat pytest
       - run: python3 -m pytest .test
         name: Run tests
