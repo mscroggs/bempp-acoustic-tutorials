@@ -9,6 +9,7 @@ jobs:
     container: bempp/cl-dev-env-with-dolfinx:latest
     steps:
       - uses: actions/checkout@v2
+      - run: apt-get -y install jupyter
       - name: Get Bempp-cl
         uses: actions/checkout@v2
         with:
@@ -19,6 +20,5 @@ jobs:
         run: |
           cd bempp-cl
           python3 setup.py install
-      - run: pip3 install nbformat pytest
       - run: python3 -m pytest .test
         name: Run tests
