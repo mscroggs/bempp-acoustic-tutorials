@@ -9,7 +9,9 @@ jobs:
     container: bempp/cl-dev-env-with-dolfinx:latest
     steps:
       - uses: actions/checkout@v2
-      - run: apt-get -y install jupyter
+      - run: |
+          apt-get update
+          apt-get -y install jupyter
       - name: Get Bempp-cl
         uses: actions/checkout@v2
         with:
