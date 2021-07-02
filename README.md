@@ -12,10 +12,6 @@ You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyte
 - Direct formulations
   - [Tutorial 2: Scattering from a rigid sphere using a direct formulation](tutorials/2_sphere_scatterer_direct.ipynb)
   - [Exercise 2: Scattering from a pressure-release sphere](exercises/2_sphere_scatterer.ipynb)
-
-
-### Unfinished
-
 - Impedence boundary conditions
   - [Tutorial 3: Scattering from a impedence sphere](tutorials/3_impedence_scattering.ipynb)
   - [Exercise 3: Different impedences](exercises/3_impedences.ipynb)
@@ -26,3 +22,18 @@ You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyte
   - [Tutorial 5: Loudspeaker](tutorials/5_loudspeaker.ipynb)
   - [Tutorial 6: FEM-BEM coupling with FEniCSx](tutorials/6_fenicsx.ipynb)
 - [Further information](tutorials/7_more.ipynb)
+
+
+## Still needs doing
+
+- [Tutorial 3: Scattering from a impedence sphere](tutorials/3_impedence_scattering.ipynb)
+  - The text at the top needs updating (currently copied from example 1)
+  - Correctness and choice of parameters need checking
+- [Exercise 3: Different impedences](exercises/3_impedences.ipynb)
+  - This needs writing
+- [Tutorial 4: Room acoustics](tutorials/4_room_acoustics.ipynb)
+  - This needs writing (MS working on it)
+- [Exercise 4: Comparing to an analytic soution](exercises/4_analytic_solution.ipynb)
+  - This needs writing (MS working on it)
+- [Tutorial 5: Loudspeaker](tutorials/5_loudspeaker.ipynb)
+  - This needs writing
