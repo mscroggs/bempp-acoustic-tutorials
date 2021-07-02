@@ -16,10 +16,9 @@ You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyte
   - [Tutorial 3: Scattering from a impedence sphere](tutorials/3_impedence_scattering.ipynb)
   - [Exercise 3: Different impedences](exercises/3_impedences.ipynb)
 - Room acoustics
-  - [Tutorial 4: Room acoustics](tutorials/4_room_acoustics.ipynb)
-  - [Exercise 4: Comparing to an analytic soution](exercises/4_analytic_solution.ipynb)
+  - [Tutorial 4: Convergence rates](tutorials/4_convergence.ipynb)
+  - [Exercise 4: Iteration counts](exercises/4_iterations.ipynb)
 - More example applications
-  - [Tutorial 5: Loudspeaker](tutorials/5_loudspeaker.ipynb)
   - [Tutorial 6: FEM-BEM coupling with FEniCSx](tutorials/6_fenicsx.ipynb)
 - [Further information](tutorials/7_more.ipynb)
 
@@ -31,9 +30,7 @@ You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyte
   - Correctness and choice of parameters need checking
 - [Exercise 3: Different impedences](exercises/3_impedences.ipynb)
   - This needs writing
-- [Tutorial 4: Room acoustics](tutorials/4_room_acoustics.ipynb)
-  - This needs writing (MS working on it)
-- [Exercise 4: Comparing to an analytic soution](exercises/4_analytic_solution.ipynb)
-  - This needs writing (MS working on it)
-- [Tutorial 5: Loudspeaker](tutorials/5_loudspeaker.ipynb)
-  - This needs writing
+- Tutorial ?: Loudspeaker
+  - This needs writing or removing from the list
+- Tutorial ?: Room acoustics
+  - This needs writing or removing from the list

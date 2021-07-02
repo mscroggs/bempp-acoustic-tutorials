@@ -1,9 +1,11 @@
 import pytest
 import os
 
-notebooks = []
-for dir in ["../exercises", "../tutorials"]:
-    path = os.path.join(os.path.dirname(os.path.realpath(__file__)), dir)
+root_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "..")
+
+notebooks = [(root_path, "README.ipynb")]
+for dir in ["exercises", "tutorials"]:
+    path = os.path.join(root_path, dir)
     for i in os.listdir(path):
         if i.endswith(".ipynb"):
             notebooks.append((path, i))
