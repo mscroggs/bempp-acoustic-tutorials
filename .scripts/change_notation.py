@@ -15,8 +15,8 @@ for dir in ["../exercises", "../tutorials"]:
 
             if argv[1] == "SDAH":
                 content = content.replace("\\mathsf{V}", "\\mathsf{S}")
-                content = content.replace("\\mathsf{K}", "\\mathsf{D}")
                 content = content.replace("\\mathsf{K}'", "\\mathsf{A}")
+                content = content.replace("\\mathsf{K}", "\\mathsf{D}")
                 content = content.replace("\\mathsf{W}", "\\mathsf{H}")
                 content = content.replace("\\mathcal{V}", "\\mathcal{S}")
                 content = content.replace("\\mathcal{K}", "\\mathcal{D}")
