@@ -8,7 +8,7 @@ You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyte
 ## Contents
 - Using the null field approach
   - [Tutorial 1: Scattering from a rigid sphere using a null field approach](tutorials/1_sphere_scatterer_null_field.ipynb)
-  - [Exercise 1: Uniqueness](exercises/1b_uniqueness.ipynb)
+  - [Exercise 1: Uniqueness](exercises/1_uniqueness.ipynb)
 - Direct formulations
   - [Tutorial 2: Scattering from a rigid sphere using a direct formulation](tutorials/2_sphere_scatterer_direct.ipynb)
   - [Exercise 2: Scattering from a pressure-release sphere](exercises/2_sphere_scatterer.ipynb)
