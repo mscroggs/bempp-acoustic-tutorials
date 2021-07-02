@@ -15,7 +15,7 @@ You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyte
 - Impedence boundary conditions
   - [Tutorial 3: Scattering from a impedence sphere](tutorials/3_impedence_scattering.ipynb)
   - [Exercise 3: Different impedences](exercises/3_impedences.ipynb)
-- Room acoustics
+- Checking performance
   - [Tutorial 4: Convergence rates](tutorials/4_convergence.ipynb)
   - [Exercise 4: Iteration counts](exercises/4_iterations.ipynb)
 - More example applications
