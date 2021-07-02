@@ -6,21 +6,11 @@ jobs:
   run-tests:
     name: Build Bempp and run tests
     runs-on: ubuntu-latest
-    container: bempp/cl-dev-env-with-dolfinx:latest
+    container: bempp/bempp-cl-with-dolfinx:latest
     steps:
       - uses: actions/checkout@v2
       - run: |
           apt-get update
           apt-get -y install jupyter
-      - name: Get Bempp-cl
-        uses: actions/checkout@v2
-        with:
-          path: ./bempp-cl
-          repository: bempp/bempp-cl
-          ref: master
-      - name: Install Bempp-cl
-        run: |
-          cd bempp-cl
-          python3 setup.py install
       - run: python3 -m pytest .test
         name: Run tests
