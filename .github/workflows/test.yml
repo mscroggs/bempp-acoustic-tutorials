@@ -4,7 +4,7 @@ on: push
 
 jobs:
   run-tests:
-    name: Build Bempp and run tests
+    name: Run tests with latest Bempp
     runs-on: ubuntu-latest
     container: bempp/bempp-cl-with-dolfinx:latest
     steps:
@@ -12,5 +12,18 @@ jobs:
       - run: |
           apt-get update
           apt-get -y install jupyter
+      - run: python3 -m pytest .test
+        name: Run tests
+
+  run-tests-pip:
+    name: Run tests with Bempp from pip
+    runs-on: ubuntu-latest
+    container: bempp/cl-dev-env-with-dolfinx:latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+          apt-get update
+          apt-get -y install jupyter
+          pip3 install bempp-cl
       - run: python3 -m pytest .test
         name: Run tests
