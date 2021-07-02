@@ -6,20 +6,20 @@ These materials were designed to be part of the [EAA / UKAN Computational Acoust
 You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyter.org/github/mscroggs/bempp-acoustic-tutorials/blob/main/README.ipynb).
 
 ## Contents
-- 1. Using the null field approach
+- Using the null field approach
   - [Tutorial 1: Scattering from a rigid sphere using a null field approach](tutorials/1_sphere_scatterer_null_field.ipynb)
   - [Exercise 1: Uniqueness](exercises/1b_uniqueness.ipynb)
-- 2. Direct formulations
+- Direct formulations
   - [Tutorial 2: Scattering from a rigid sphere using a direct formulation](tutorials/2_sphere_scatterer_direct.ipynb)
   - [Exercise 2: Scattering from a pressure-release sphere](exercises/2_sphere_scatterer.ipynb)
 
 
 ### Unfinished
 
-- 3. Impedence boundary conditions
+- Impedence boundary conditions
   - [Tutorial 3: Scattering from a impedence sphere](tutorials/3_impedence_scattering.ipynb)
   - [Exercise 3: Different impedences](exercises/3_impedences.ipynb)
-- 4. Room acoustics
+- Room acoustics
   - [Tutorial 4: Room acoustics](tutorials/4_room_acoustics.ipynb)
   - [Exercise 4: Comparing to an analytic soution](exercises/4_analytic_solution.ipynb)
 - More example applications
