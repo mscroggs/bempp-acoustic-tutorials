@@ -6,6 +6,7 @@ These materials were designed to be part of the [EAA / UKAN Computational Acoust
 You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyter.org/github/mscroggs/bempp-acoustic-tutorials/blob/main/README.ipynb).
 
 ## Contents
+- [Installing Bempp](tutorials/0_install.ipynb)
 - Using the null field approach
   - [Tutorial 1: Scattering from a rigid sphere using a null field approach](tutorials/1_sphere_scatterer_null_field.ipynb)
   - [Exercise 1: Uniqueness](exercises/1_uniqueness.ipynb)
