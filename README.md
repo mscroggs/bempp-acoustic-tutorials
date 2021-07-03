@@ -19,6 +19,7 @@ You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyte
   - [Tutorial 4: Convergence rates](tutorials/4_convergence.ipynb)
   - [Exercise 4: Iteration counts](exercises/4_iterations.ipynb)
 - More example applications
+  - [Tutorial 5: Loudspeaker](tutorials/5_loudspeaker.ipynb)
   - [Tutorial 6: FEM-BEM coupling with FEniCSx](tutorials/6_fenicsx.ipynb)
 - [Further information](tutorials/7_more.ipynb)
 
@@ -30,7 +31,3 @@ You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyte
   - Correctness and choice of parameters need checking
 - [Exercise 3: Different impedences](exercises/3_impedences.ipynb)
   - This needs writing
-- Tutorial ?: Loudspeaker
-  - This needs writing or removing from the list
-- Tutorial ?: Room acoustics
-  - This needs writing or removing from the list
