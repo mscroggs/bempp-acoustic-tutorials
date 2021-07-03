@@ -32,3 +32,9 @@ You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyte
   - Correctness and choice of parameters need checking
 - [Exercise 3: Different impedences](exercises/3_impedences.ipynb)
   - This needs writing
+
+## Correcting errors
+If you spot an error in these tutorials and exercises, please report it
+on the [GitHub issue tracker](https://github.com/mscroggs/bempp-acoustic-tutorials/issues).
+You can also use the issue tracker to suggest any changes that you think would help
+to make these tutorials and exercises clearer.
