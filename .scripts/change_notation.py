@@ -18,6 +18,7 @@ for dir in ["../exercises", "../tutorials"]:
                 content = content.replace("\\mathsf{K}'", "\\mathsf{A}")
                 content = content.replace("\\mathsf{K}", "\\mathsf{D}")
                 content = content.replace("\\mathsf{W}", "\\mathsf{H}")
+                content = content.replace("\\mathsf{Id}", "\\mathsf{I}")
                 content = content.replace("\\mathcal{V}", "\\mathcal{S}")
                 content = content.replace("\\mathcal{K}", "\\mathcal{D}")
 
@@ -26,6 +27,7 @@ for dir in ["../exercises", "../tutorials"]:
                 content = content.replace("\\mathsf{D}", "\\mathsf{K}")
                 content = content.replace("\\mathsf{A}", "\\mathsf{K}'")
                 content = content.replace("\\mathsf{H}", "\\mathsf{W}")
+                content = content.replace("\\mathsf{I}", "\\mathsf{Id}")
                 content = content.replace("\\mathcal{S}", "\\mathcal{V}")
                 content = content.replace("\\mathcal{D}", "\\mathcal{K}")
 

@@ -4,8 +4,10 @@ from nbconvert.preprocessors import ExecutePreprocessor
 from utils import parametrize_over_notebooks
 
 notations = [
-    ["\\mathsf{V}", "\\mathsf{K}", "\\mathsf{W}", "\\mathsf{K}'", "\\mathcal{V}", "\\mathcal{K}"],
-    ["\\mathsf{S}", "\\mathsf{D}", "\\mathsf{H}", "\\mathsf{A}", "\\mathcal{S}", "\\mathcal{D}"]
+    ["\\mathsf{V}", "\\mathsf{K}", "\\mathsf{W}", "\\mathsf{K}'", "\\mathsf{Id}",
+     "\\mathcal{V}", "\\mathcal{K}"],
+    ["\\mathsf{S}", "\\mathsf{D}", "\\mathsf{H}", "\\mathsf{A}", "\\mathsf{I}",
+     "\\mathcal{S}", "\\mathcal{D}"]
 ]
 
 used = None
