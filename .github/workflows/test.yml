@@ -14,17 +14,3 @@ jobs:
           apt-get -y install jupyter
       - run: python3 -m pytest .test
         name: Run tests
-
-  run-tests-pip:
-    name: Run tests with Bempp from pip
-    runs-on: ubuntu-latest
-    container: bempp/cl-dev-env-with-dolfinx:latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: |
-          apt-get update
-          apt-get -y install jupyter
-          pip3 install numba==0.48.0
-          pip3 install bempp-cl
-      - run: python3 -m pytest .test
-        name: Run tests
