@@ -12,5 +12,7 @@ jobs:
       - run: |
           apt-get update
           apt-get -y install jupyter
+          pip3 install plotly
+        name: Install requirements
       - run: python3 -m pytest .test
         name: Run tests
