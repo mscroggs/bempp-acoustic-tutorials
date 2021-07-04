@@ -4,10 +4,10 @@ This repository contains tutorials and exercises designed to show you how to use
 These materials were designed to be part of the [EAA / UKAN Computational Acoustics Summer School](https://acoustics.ac.uk/events/4468/).
 They have all been created in [Jupyter Notebooks](https://jupyter.org/), which allow you to see code, explanation and results all alongside.
 
-The <i>tutorials</i> are complete notebooks that aim to demonstrate how to approach various types of problems using bempp.<br>
-The <i>exercises</i> invite you to develop the notebooks to add new functionality, thereby developing your experitise in using bempp.
+The <i>tutorials</i> are complete notebooks that aim to demonstrate how to approach various types of problems using Bempp.<br>
+The <i>exercises</i> invite you to develop the notebooks to add new functionality, thereby developing your experitise in using Bempp.
 
-You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyter.org/github/mscroggs/bempp-acoustic-tutorials/blob/main/README.ipynb) without needing to install bempp. <br>But if you wish to make any edits yourself, as is required to undertake the exercises, then you'll need to [install bempp](tutorials/0_install.ipynb) and either clone the repository or download the code (achieved via the green <i>Code</i> button above right).
+You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyter.org/github/mscroggs/bempp-acoustic-tutorials/blob/main/README.ipynb) without needing to install Bempp. <br>But if you wish to make any edits yourself, as is required to undertake the exercises, then you'll need to [install Bempp](tutorials/0_install.ipynb) and either clone the repository or download the code (achieved via the green <i>Code</i> button above right).
 
 ## Contents
 - [Instructions for installing Bempp](tutorials/0_install.ipynb)
@@ -41,39 +41,15 @@ on the [GitHub issue tracker](https://github.com/mscroggs/bempp-acoustic-tutoria
 You can also use the issue tracker to suggest any changes that you think would help
 to make these tutorials and exercises clearer.
 
-## Notation differences between these tutorials and the bempp documentation
-The bempp website includes a [handbook](https://bempp.com/handbook/index.html), which gives an introduction to how the library operates, and [automatically generated full Python documentation](https://bempp-cl.readthedocs.io/en/latest/), which is useful for looking up specific details once you already understand the main principles for using bempp. But that documentation uses a different operator notation to what is used in these tutorials, which follow the Jonathan Hargreaves's slides from the summer school.
+## Notation differences between these tutorials and the Bempp documentation
+The bempp website includes a [handbook](https://bempp.com/handbook/index.html), which gives an introduction to how the library operates, and [automatically generated full Python documentation](https://bempp-cl.readthedocs.io/en/latest/), which is useful for looking up specific details once you already understand the main principles for using Bempp. But that documentation uses a different operator notation to what is used in these tutorials, which follow the Jonathan Hargreaves's slides from the summer school.
 
 Here is a summary of the differences:
-<table>
-  <tr>
-    <td>Operator</td>
-    <td>Notation used herein</td>
-    <td>Notation used in bempp documentation</td>
-  </tr>
-  <tr>
-    <td>Identity Operator</td>
-    <td>I</td>
-    <td>Id</td>
-  </tr>
-  <tr>
-    <td>Single Layer Potential</td>
-    <td>S</td>
-    <td>V</td>
-  </tr>
-  <tr>
-    <td>Double Layer Potential</td>
-    <td>D</td>
-    <td>K</td>
-  </tr>
-  <tr>
-    <td>Adjoint Double Layer Potential</td>
-    <td>A</td>
-    <td>K'</td>
-  </tr>
-  <tr>
-    <td>Hypersinglar Operator</td>
-    <td>H</td>
-    <td>W</td>
-  </tr>
-</table>
+
+Operator | Notation used herein | Notation used in bempp documentation
+-------- | -------------------- | ------------------------------------
+Identity | I                    | Id
+Single layer | S                | V
+Double layer | D                | K
+Adjoint double layer | A        | K'
+Hypersingular | H               | W
