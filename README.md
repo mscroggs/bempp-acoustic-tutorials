@@ -2,8 +2,12 @@
 
 This repository contains tutorials and exercises designed to show you how to use Bempp to solve problems in acoustics.
 These materials were designed to be part of the [EAA / UKAN Computational Acoustics Summer School](https://acoustics.ac.uk/events/4468/).
+They have all been created in [Jupyter Notebooks](https://jupyter.org/), which allow you to see code, explanation and results all alongside.
 
-You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyter.org/github/mscroggs/bempp-acoustic-tutorials/blob/main/README.ipynb).
+The <i>tutorials</i> are complete notebooks that aim to demonstrate how to approach various types of problems using bempp.<br>
+The <i>exercises</i> invite you to develop the notebooks to add new functionality, thereby developing your experitise in using bempp.
+
+You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyter.org/github/mscroggs/bempp-acoustic-tutorials/blob/main/README.ipynb) without needing to install bempp. <br>But if you wish to make any edits yourself, as is required to undertake the exercises, then you'll need to [install bempp](tutorials/0_install.ipynb) and either clone the repository or download the code (achieved via the green <i>Code</i> button above right).
 
 ## Contents
 - [Instructions for installing Bempp](tutorials/0_install.ipynb)
@@ -37,7 +41,7 @@ on the [GitHub issue tracker](https://github.com/mscroggs/bempp-acoustic-tutoria
 You can also use the issue tracker to suggest any changes that you think would help
 to make these tutorials and exercises clearer.
 
-## Notation differences between these tutorials and exercises and the bempp documentation
+## Notation differences between these tutorials and the bempp documentation
 The bempp website includes a [handbook](https://bempp.com/handbook/index.html), which gives an introduction to how the library operates, and [automatically generated full Python documentation](https://bempp-cl.readthedocs.io/en/latest/), which is useful for looking up specific details once you already understand the main principles for using bempp. But that documentation uses a different operator notation to what is used in these tutorials, which follow the Jonathan Hargreaves's slides from the summer school.
 
 Here is a summary of the differences:
