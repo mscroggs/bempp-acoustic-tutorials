@@ -4,10 +4,9 @@ This repository contains tutorials and exercises designed to show you how to use
 These materials were designed to be part of the [EAA / UKAN Computational Acoustics Summer School](https://acoustics.ac.uk/events/4468/).
 They have all been created in [Jupyter Notebooks](https://jupyter.org/), which allow you to see code, explanation and results all alongside.
 
-The <i>tutorials</i> are complete notebooks that aim to demonstrate how to approach various types of problems using Bempp.<br>
-The <i>exercises</i> invite you to develop the notebooks to add new functionality, thereby developing your experitise in using Bempp.
+The [tutorials](tutorials/) are complete notebooks that aim to demonstrate how to approach various types of problems using Bempp. The [exercises](exercises/) invite you to develop the notebooks to add new functionality, thereby developing your experitise in using Bempp.
 
-You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyter.org/github/mscroggs/bempp-acoustic-tutorials/blob/main/README.ipynb) without needing to install Bempp. <br>But if you wish to make any edits yourself, as is required to undertake the exercises, then you'll need to [install Bempp](tutorials/0_install.ipynb) and either clone the repository or download the code (achieved via the green <i>Code</i> button above right).
+You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyter.org/github/mscroggs/bempp-acoustic-tutorials/blob/main/README.ipynb) without needing to install Bempp. But if you wish to make any edits yourself, as is required to undertake the exercises, then you'll need to [install Bempp](tutorials/0_install.ipynb) and either clone the repository or download the code (achieved via the green <i>Code</i> button above right).
 
 ## Contents
 - [Instructions for installing Bempp](tutorials/0_install.ipynb)
