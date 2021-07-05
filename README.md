@@ -21,7 +21,7 @@ You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyte
   - [Exercise 3: Iteration counts](exercises/3_iterations.ipynb)
 - Impedence boundary conditions
   - [Tutorial 4: Scattering from a impedence sphere](tutorials/4_impedence_scattering.ipynb)
-  - [Exercise 4: Different impedences](exercises/4_inverse_problem.ipynb)
+  - [Exercise 4: An inverse problem](exercises/4_inverse_problem.ipynb)
 - More example applications
   - [Tutorial 5: Loudspeaker](tutorials/5_loudspeaker.ipynb)
   - [Tutorial 6: FEM-BEM coupling with FEniCSx](tutorials/6_fenicsx.ipynb)
