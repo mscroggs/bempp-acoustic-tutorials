@@ -17,23 +17,17 @@ You can view these tutorials and exercises [on nbviewer](https://nbviewer.jupyte
 - Direct formulations
   - [Tutorial 2: Scattering from a rigid sphere using a direct formulation](tutorials/2_sphere_scatterer_direct.ipynb)
   - [Exercise 2: Scattering from a pressure-release sphere](exercises/2_sphere_scatterer.ipynb)
-- Impedence boundary conditions
-  - [Tutorial 3: Scattering from a impedence sphere](tutorials/3_impedence_scattering.ipynb)
-  - [Exercise 3: Different impedences](exercises/3_impedences.ipynb)
 - Checking performance
-  - [Tutorial 4: Convergence rates](tutorials/4_convergence.ipynb)
-  - [Exercise 4: Iteration counts](exercises/4_iterations.ipynb)
+  - [Tutorial 3: Convergence rates](tutorials/3_convergence.ipynb)
+  - [Exercise 3: Iteration counts](exercises/3_iterations.ipynb)
+- Impedence boundary conditions
+  - [Tutorial 4: Scattering from a impedence sphere](tutorials/4_impedence_scattering.ipynb)
+  - [Exercise 4: Different impedences](exercises/4_inverse_problem.ipynb)
 - More example applications
   - [Tutorial 5: Loudspeaker](tutorials/5_loudspeaker.ipynb)
   - [Tutorial 6: FEM-BEM coupling with FEniCSx](tutorials/6_fenicsx.ipynb)
 - [Further information](tutorials/7_more.ipynb)
 
-## Things we're still working on:
-- [Tutorial 3: Scattering from a impedence sphere](tutorials/3_impedence_scattering.ipynb)
-  - The text at the top needs updating (currently copied from example 1)
-  - Correctness and choice of parameters need checking
-- [Exercise 3: Different impedences](exercises/3_impedences.ipynb)
-  - This needs writing
 
 ## Please help us correct errors by reporting them:
 If you spot an error in these tutorials and exercises, please report it
