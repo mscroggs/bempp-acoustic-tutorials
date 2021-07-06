@@ -39,7 +39,7 @@ The bempp website includes a [handbook](https://bempp.com/handbook/index.html), 
 
 Here is a summary of the differences:
 
-Operator | Notation used herein | Notation used in bempp documentation
+Operator | Notation used herein | Notation used in Bempp documentation
 -------- | -------------------- | ------------------------------------
 Identity | I                    | Id
 Single layer | S                | V
